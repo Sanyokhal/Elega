@@ -18,7 +18,7 @@
             <ul>
                 <li>Home</li>
                 <li>Products</li>
-                <li>Shop</li>
+                <li>Popular</li>
                 <li>Contacts</li>
             </ul>
         </div>
@@ -34,106 +34,88 @@
                     <h3>Elega</h3>
                 </div>
                 <h3 id="inf1">On our way to make you better</h3>
-                <h3 id="inf2">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.</h3>
+                <h3 id="inf2">Online shop where you can find premium quality clothes, accessories and shoes. Cloth made by hand by professional 
+                    seamstresses. Everything measured and sewed especially for you. Personal consultant will help you to choose things based on your style and 
+                    preferences. Our company has over 10 awards in different world competitions and was widely recognized by Elon Musk,
+                    Steve Jobs, Andriy Erdek and other media .
+                 </h3>
             </div>
         </div>
         <!-------------------------------------------------Segment-2-->
         <div class="segment-2">
             <h2>Our Products</h2>
             <div class="box-2">
-                <div class="rotator">
-                    <div class="element-1">
-                        <img src="png/img1.png" alt="Image not found(">
-                        <div class="conr">
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing
-                                elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h3>
-                            <button>Shop Online</button>
-                        </div>
+                <div class="box_text">
+                    <div class="clothes">
+                        <h3>Clothes</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                     </div>
-                    <h2 class="rot">Clothing</h2>
-                </div>
-                <div class="rotator">
-                    <h2 class="rot" id="shoe">Shoes</h2>
-                    <div class="element-2">
-                        <div class="conr">
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing
-                                elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h3>
-                            <button>Shop Online</button>
-                        </div>
-                        <img src="jpg/shoe.jpg" alt="Image not found(">
+                    <div class="shoes">
+                        <h3>Shoes</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    </div>
+                    <div class="accessories">
+                        <h3>Accessories</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                     </div>
                 </div>
-                <div class="rotator">
-                    <div class="element-3">
-                        <img src="jpg/accessories.jpg" alt="Image not found(">
-                        <div class="conr">
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing
-                                elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h3>
-                            <button>Shop Online</button>
-                        </div>
-                    </div>
-                    <h2 class="rot">Accessories</h2>
+                <div class="collage">
+                    <img src="png/collage.png" alt="collage">
                 </div>
             </div>
         </div>
         <!-------------------------------------------------Segment-3-->
         <div class="segment-3">
-            <h2>Shop</h2>
+            <h2>Most selled products</h2>
             <div class="container">
                 <div class="card">
                     <img src="jpg/man.jpg" alt="">
                     <h3>Jacket №1</h3>
-                    <button>More</button>
+                    <button onclick="add_soon()">More</button>
                 </div>
                 <div class="card">
                     <img src="png/img1.png" alt="">
                     <h3>Jacket №2</h3>
-                    <button>More</button>
+                    <button onclick="add_soon()">More</button>
                 </div>
                 <div class="card">
                     <img src="jpg/man.jpg" alt="">
                     <h3>Jacket №3</h3>
-                    <button>More</button>
+                    <button onclick="add_soon()">More</button>
                 </div>
                 <div class="card">
                     <img src="png/img1.png" alt="">
                     <h3>Jacket №4</h3>
-                    <button>More</button>
+                    <button onclick="add_soon()">More</button>
                 </div>
                 <div class="card">
                     <img src="jpg/man.jpg" alt="">
                     <h3>Jacket №5</h3>
-                    <button>More</button>
+                    <button onclick="add_soon()">More</button>
                 </div>
                 <div class="card">
                     <img src="png/img1.png" alt="">
                     <h3>Jacket №6</h3>
-                    <button>More</button>
+                    <button onclick="add_soon()">More</button>
                 </div>
             </div>
         </div>
         <!-------------------------------------------------Segment-4-->
         <div class="segment-4">
-            <form class="form">
-                <input placeholder="Name" id="name_int" type="text">
-                <input placeholder="Email" id="email_int" type="text">
-                <input placeholder="Message" id="message_int" type="text">
-                <button type="submit">Submit</button>
+            <form class="form" name="contact"> 
+                <input placeholder="Name" id="name_int" name="username_f" value="" type="text">
+                <input placeholder="Email" id="email_int"  name="email_f" value="" type="text">
+                <input placeholder="Message" id="message_int"  name="message_f" value="" type="text">
+                <button onclick="al_but()">Submit</button>
             </form>
             <div class="links">
-
+                <h3 class="link_head">Our social media</h3>
+                <ul>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Youtube</a></li>
+                </ul>
             </div>
         </div>
     </div>
