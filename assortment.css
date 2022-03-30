@@ -1,0 +1,235 @@
+* {
+  font-family: "Libre Baskerville", serif;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  color: #EAE0D5;
+}
+
+.wrapper {
+  width: 100vw;
+  background-color: #191E22;
+}
+
+.menu {
+  width: 50vw;
+  margin-left: 50vw;
+}
+
+.choose {
+  width: 60vw;
+  margin-left: 20vw;
+  margin-bottom: 5vh;
+  padding-top: 10vh;
+  text-align: center;
+  height: 5vh;
+}
+.choose ul {
+  background-color: #252D35;
+  border: 2px solid #EAE0D5;
+  height: 5vh;
+  padding: 1vh 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 60vw;
+  list-style-type: none;
+}
+.choose li {
+  font-weight: 700;
+  height: 5vh;
+  line-height: 5vh;
+}
+.choose li:hover {
+  cursor: pointer;
+}
+
+.goods {
+  width: 80vw;
+  margin-left: 10vw;
+  height: 350vh;
+}
+.goods h2 {
+  text-align: center;
+  padding: 5vh 0;
+  font-size: 40px;
+}
+.goods .detail_card {
+  margin: 0 2vw;
+  overflow: hidden;
+  background-color: #EAE0D5;
+  width: 15vw;
+  height: 40vh;
+  text-align: center;
+}
+.goods .detail_card img {
+  width: 15vw;
+  height: 25vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.goods .detail_card img:hover {
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  height: 40vh;
+}
+.goods .detail_card h3 {
+  font-weight: 700;
+  color: #191E22;
+}
+.goods .detail_card p {
+  padding: 1vh 0;
+  font-weight: 400;
+  color: #191E22;
+  font-size: 18px;
+}
+.goods .detail_card button {
+  border: 3px solid #191E22;
+  color: #191E22;
+  border: 0;
+  background-color: #EAE0D5;
+}
+.goods .detail_card button:hover {
+  cursor: pointer;
+}
+.goods .clothing {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.goods .shoes {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.goods .assortment {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/*-------------------------------------POP-UP-------------------------------------------------------*/
+.pop-up {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(25, 30, 34, 0.7);
+}
+.pop-up .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 80vw;
+  height: 80vh;
+  margin-top: 10vh;
+  margin-left: 10vw;
+  background-color: #252D35;
+}
+.pop-up .box form {
+  margin-top: 5vh;
+  height: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-left: 5vw;
+  width: 50vw;
+}
+.pop-up .box form input {
+  width: 40vw;
+  height: 5vh;
+  background-color: #191E22;
+  border: none;
+  color: #EAE0D5;
+}
+.pop-up .box form button {
+  margin-left: 15vw;
+  width: 10vw;
+  color: #191E22;
+  background-color: #EAE0D5;
+  border: none;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.pop-up .box form button:hover {
+  color: #EAE0D5;
+  background-color: #191E22;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.pop-up .box .media {
+  text-align: center;
+  margin-top: 5vh;
+}
+.pop-up .box .media .soc_med_txt {
+  font-size: 32px;
+}
+.pop-up .box .media ul {
+  list-style: none;
+}
+.pop-up .box .media a {
+  text-decoration: none;
+}
+.pop-up .box .media li {
+  padding: 10px 0;
+}
+.pop-up .box #cancel_button {
+  margin-top: 5vh;
+  width: 3vw;
+  height: 3vw;
+  margin-left: 2vw;
+}
+.pop-up .box #cancel_button:hover {
+  cursor: pointer;
+}
