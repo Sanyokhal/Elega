@@ -1,0 +1,592 @@
+@media  only screen and (max-width:1200px){
+    .wrapper{
+        .menu{
+            width: 50vw;
+            margin-left: 50vw;
+            height: 10vh;
+            ul{
+                height: 10vh;
+                padding: 0;
+            }
+            li{
+                padding: 0;
+                height: 10vh;
+                line-height: 10vh;
+                font-size: 24px;
+            }
+        }
+        /*---------------------------------SEGMENT-1-----------------------------------------------------------------------------------*/
+        .segment-1{
+            h2{
+                font-size:48px;
+            }
+            height: 150vh;
+            padding-top: 15vh;
+            .box{
+                height: 120vh;
+                .logo{
+                    height: 10vh;
+                    h3{
+                        font-size: 32px;
+                        line-height: 64px;
+                    }
+                }
+                #inf1{
+                    font-size: 42px;
+                }
+                #inf2{
+                    font-size: 18px;
+                }
+            }
+        }
+        /*---------------------------------SEGMENT-2-----------------------------------------------------------------------------------*/
+        .segment-2{
+            h2{
+                font-size:48px;
+            }
+            height: 150vh;
+            .box-2{
+                height: 120vh;
+                .box_text{
+                    h3{
+                        font-size:24px;
+                    }
+                    p{
+                        font-size: 18px;
+                    }
+                }
+                .collage{
+                    height: 120vh;
+                    img{
+                        height: 120vh;
+                    }
+                }
+            }
+            h2{
+                padding: 50px 0;
+            }
+        }
+        /*---------------------------------SEGMENT-3-----------------------------------------------------------------------------------*/
+        .segment-3{
+            margin-bottom: 10vh;
+            height: 200vh;
+            h2{
+                font-size:48px;
+            }
+            .container{
+                height: 170vh;
+                .card{
+                    margin: 10px 20px;
+                    width: 175px;
+                    height: 275px;
+                    img{
+                        width: 175px;
+                        height: 200px;
+                    }
+                    h3{
+                        font-size: 24px;
+                    }
+                    button{
+                        font-size: 18px;
+                        width: 50%;
+                        margin-left: 25%;
+                        height: 25px;
+                        line-height: 25px;
+                    }
+                }
+            }
+        }
+         /*---------------------------------SEGMENT-4-----------------------------------------------------------------------------------*/
+        .segment-4{
+            height: 50vh;
+            .form{
+                height: 30vh;
+                input{
+                    padding: 3px 0;
+                    font-size: 18px;
+                    height: 5vh;
+                    line-height: 5vh;
+                }
+                button{
+                    height: 35px;
+                    line-height: normal;
+                    font-size: 18px;
+                }
+            }
+            .links{
+                ul{
+                    li{
+                        padding: 5px;
+                        a{
+                            font-size: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+    .wrapper{
+        overflow: hidden;
+        .menu{
+            width: 100vw;
+            margin-left: 0;
+            height: 10vh;
+            ul{
+                height: 10vh;
+                padding: 0;
+            }
+            li{
+                padding: 0;
+                height: 10vh;
+                line-height: 10vh;
+                font-size: 24px;
+            }
+        }
+        /*---------------------------------SEGMENT-1-----------------------------------------------------------------------------------*/
+        .segment-1{
+            height: 150vh;
+            padding-top: 15vh;
+            h2{
+                font-size:36px;
+                padding: 20px 0;
+            }
+            .box{
+                height: 120vh;
+                width: 80vw;
+                margin-left: 15vw;
+                .logo{
+                    height: 10vh;
+                    h3{
+                        font-size: 32px;
+                        line-height: 64px;
+                    }
+                }
+                #inf1{
+                    font-size: 36px;
+                }
+                #inf2{
+                    width: 40vw;
+                    font-size: 15px;
+                }
+            }
+        }
+        /*---------------------------------SEGMENT-2-----------------------------------------------------------------------------------*/
+        .segment-2{
+            h2{
+                padding: 20px 0;
+                font-size:36px;
+            }
+            height: 180vh;
+            .box-2{
+                height: 150vh;
+                .box_text{
+                    justify-content: space-around;
+                    h3{
+                        font-size:18px;
+                    }
+                    p{
+                        font-size: 15px;
+                    }
+                }
+                .collage{
+                    height: 150vh;
+                    img{
+                        height: 150vh;
+                    }
+                }
+            }
+            h2{
+                padding: 50px 0;
+            }
+        }
+        /*---------------------------------SEGMENT-3-----------------------------------------------------------------------------------*/
+        .segment-3{
+            margin-bottom: 10vh;
+            height: 300vh;
+            h2{
+                padding: 20px 0;
+                font-size:36px;
+            }
+            .container{
+                height: 170vh;
+                .card{
+                    margin: 10px 20px;
+                    width: 175px;
+                    height: 275px;
+                    img{
+                        width: 175px;
+                        height: 200px;
+                    }
+                    h3{
+                        font-size: 24px;
+                    }
+                    button{
+                        font-size: 18px;
+                        width: 50%;
+                        margin-left: 25%;
+                        height: 25px;
+                        line-height: 25px;
+                    }
+                }
+            }
+        }
+         /*---------------------------------SEGMENT-4-----------------------------------------------------------------------------------*/
+        .segment-4{
+            overflow: hidden;
+            margin-left: 10vw;
+            height: 50vh;
+            width: 80vw;
+            .form{
+                margin-left: 0;
+                width:60vw;
+                height: 40vh;
+                input{
+                    padding: 3px 0;
+                    font-size: 18px;
+                    height: 5vh;
+                    line-height: 5vh;
+                }
+                button{
+                    height: 30px;
+                    line-height: normal;
+                    font-size: 18px;
+                }
+            }
+            .links{
+                h3{
+                    font-size:18px;
+                }
+                ul{
+                    li{
+                        padding: 2px;
+                        a{
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+  }
+  
+  /* Small Devices, Tablets */
+  @media only screen and (max-width: 768px) {
+    .wrapper{
+        overflow: hidden;
+        .menu{
+            width: 100vw;
+            margin-left: 0;
+            height: 10vh;
+            ul{
+                height: 10vh;
+                padding: 0;
+            }
+            li{
+                padding: 0;
+                height: 10vh;
+                line-height: 10vh;
+                a{
+                    font-size: 20px;
+                }
+            }
+        }
+        /*---------------------------------SEGMENT-1-----------------------------------------------------------------------------------*/
+        .segment-1{
+            height: 150vh;
+            padding-top: 15vh;
+            h2{
+                font-size:36px;
+                padding: 20px 0;
+            }
+            .box{
+                height: 120vh;
+                width: 80vw;
+                margin-left: 15vw;
+                .logo{
+                    height: 10vh;
+                    h3{
+                        font-size: 32px;
+                        line-height: 64px;
+                    }
+                }
+                #inf1{
+                    width: 80vw;
+                    font-size: 36px;
+                }
+                #inf2{
+                    display: none;
+                    font-size: 15px;
+                }
+            }
+        }
+        /*---------------------------------SEGMENT-2-----------------------------------------------------------------------------------*/
+        .segment-2{
+            h2{
+                padding: 20px 0;
+                font-size:36px;
+            }
+            height: 200vh;
+            .box-2{
+                flex-direction: column;
+                height: 100vh;
+                .box_text{
+                    width: 100vw;
+                    justify-content: space-around;
+                    padding: 0;
+                    margin-left: 10vw;
+                    width: 80vw;
+                    h3{
+                        font-size:18px;
+                    }
+                    p{
+                        font-size: 15px;
+                    }
+                }
+                .collage{
+                    height: 100vh;
+                    width: 100vw;
+                    img{
+                        width: 50vw;
+                        padding-left: 25vw;
+                        height: 100vh;
+                    }
+                }
+            }
+            h2{
+                padding: 50px 0;
+            }
+        }
+        /*---------------------------------SEGMENT-3-----------------------------------------------------------------------------------*/
+        .segment-3{
+            margin-bottom: 10vh;
+            height: 300vh;
+            h2{
+                padding: 20px 0;
+                font-size:36px;
+            }
+            .container{
+                height: 170vh;
+                .card{
+                    margin: 10px 20px;
+                    width: 125px;
+                    height: 275px;
+                    img{
+                        width: 125px;
+                        height: 200px;
+                    }
+                    h3{
+                        font-size: 24px;
+                    }
+                    button{
+                        font-size: 18px;
+                        width: 50%;
+                        margin-left: 25%;
+                        height: 25px;
+                        line-height: 25px;
+                    }
+                }
+            }
+        }
+         /*---------------------------------SEGMENT-4-----------------------------------------------------------------------------------*/
+        .segment-4{
+            overflow: hidden;
+            margin-left: 0;
+            height: 50vh;
+            width: 100vw;
+            .form{
+                margin-left: 0;
+                width:50vw;
+                height: 40vh;
+                input{
+                    padding: 3px 0;
+                    font-size: 18px;
+                    height: 5vh;
+                    line-height: 5vh;
+                }
+                button{
+                    height: 30px;
+                    line-height: normal;
+                    font-size: 18px;
+                }
+            }
+            .links{
+                width: 50vw;
+                h3{
+                    font-size:18px;
+                }
+                ul{
+                    li{
+                        padding: 2px;
+                        a{
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+  }
+  
+  /* Extra Small Devices, Phones */
+  @media only screen and (max-width: 480px) {
+    .wrapper{
+        overflow: hidden;
+        .menu{
+            width: 100vw;
+            margin-left: 0;
+            height: 10vh;
+            ul{
+                height: 10vh;
+                padding: 0;
+            }
+            li{
+                padding: 0;
+                height: 10vh;
+                line-height: 10vh;
+                a{
+                    font-size: 15px;
+                }
+            }
+        }
+        /*---------------------------------SEGMENT-1-----------------------------------------------------------------------------------*/
+        .segment-1{
+            height: 150vh;
+            padding-top: 15vh;
+            h2{
+                font-size:36px;
+                padding: 20px 0;
+            }
+            .box{
+                height: 120vh;
+                width: 80vw;
+                margin-left: 15vw;
+                .logo{
+                    height: 10vh;
+                    h3{
+                        font-size: 32px;
+                        line-height: 64px;
+                    }
+                }
+                #inf1{
+                    width: 80vw;
+                    font-size: 36px;
+                }
+                #inf2{
+                    display: none;
+                    font-size: 15px;
+                }
+            }
+        }
+        /*---------------------------------SEGMENT-2-----------------------------------------------------------------------------------*/
+        .segment-2{
+            h2{
+                padding: 20px 0;
+                font-size:36px;
+            }
+            height: 400vh;
+            .box-2{
+                flex-direction: column;
+                height: 200vh;
+                .box_text{
+                    justify-content: space-around;
+                    padding: 0;
+                    margin-left: 10vw;
+                    width: 80vw;
+                    h3{
+                        font-size:15px;
+                    }
+                    p{
+                        font-size: 12px;
+                    }
+                    .clothes{
+                        height: 60vh;
+                    }
+                    .shoes{
+                        height: 60vh;
+                    }
+                    .accessories{
+                        height: 60vh;
+                    }
+                }
+                .collage{
+                    height: 200vh;
+                    width: 100vw;
+                    img{
+                        padding: 0;
+                        margin: 0;
+                        width: 100vw;
+                        height: 200vh;
+                    }
+                }
+            }
+            h2{
+                padding: 25px 0;
+            }
+        }
+        /*---------------------------------SEGMENT-3-----------------------------------------------------------------------------------*/
+        .segment-3{
+            margin-bottom: 10vh;
+            height: 300vh;
+            h2{
+                padding: 20px 0;
+                font-size:36px;
+            }
+            .container{
+                width: 70vw;
+                height: 170vh;
+                .card{
+                    margin: 10px 0;
+                    width: 25vw;
+                    height: 175px;
+                    img{
+                        width: 25vw;
+                        height: 125px;
+                    }
+                    h3{
+                        font-size: 15px;
+                    }
+                    button{
+                        border: 0;
+                        font-size: 15px;
+                        width: 100%;
+                        margin-left: 0;
+                        height: 25px;
+                        line-height: 25px;
+                    }
+                }
+            }
+        }
+         /*---------------------------------SEGMENT-4-----------------------------------------------------------------------------------*/
+        .segment-4{
+            overflow: hidden;
+            margin-left: 0;
+            height: 70vh;
+            width: 100vw;
+            .form{
+                display: none;
+            }
+            .links{
+                text-align: center;
+                width: 100vw;
+                height: 70vh;
+                h3{
+                    width: 100vw;
+                    font-size:18px;
+                }
+                ul{
+                    width: 100vw;
+                    li{
+                        padding: 5px 0;
+                        a{
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+  }
+  

@@ -1,3 +1,4 @@
+@import 'adaptive.css';
 * {
     font-family: 'Libre Baskerville', serif;
     margin: 0;
@@ -10,11 +11,12 @@
     width: 100vw;
     background-color: #191E22;
 }
+
 /*--------------------------------------MENU_Settings----------------------------------*/
 
 .menu {
-   border-right: none;
-   border-top: none;
+    border-right: none;
+    border-top: none;
     background-color: #191E22;
     outline: 3px solid #EAE0D5;
     position: fixed;
@@ -22,9 +24,11 @@
     width: 40vw;
     margin-left: 60vw;
     z-index: 3;
-    a{
+
+    a {
         text-decoration: none;
     }
+
     ul {
         height: 100%;
         display: flex;
@@ -42,18 +46,21 @@
         display: inline-block;
         transition: all .5s ease-out;
     }
-    li:hover{
+
+    li:hover {
         background-color: #EAE0D5;
         color: #191E22;
         transition: all .5s ease-out;
         cursor: pointer;
     }
-    a:hover{
+
+    a:hover {
         color: #191E22;
         transition: all .5s ease-out;
         cursor: pointer;
     }
 }
+
 /*--------------------------------------SEGMENT__1----------------------------------*/
 .segment-1 {
     height: 100vh;
@@ -65,7 +72,6 @@
 
     .box {
         flex-wrap: wrap;
-        
         width: 70vw;
         height: 70vh;
         display: flex;
@@ -127,6 +133,7 @@
         }
     }
 }
+
 /*--------------------------------------SEGMENT__2----------------------------------*/
 .segment-2 {
     background-color: #191E22;
@@ -146,33 +153,41 @@
         height: 100vh;
         display: flex;
         flex-direction: row;
-        .box_text{
+
+        .box_text {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            padding-left:5vw ;
+            padding-left: 5vw;
             width: 50vw;
-            h3{
+
+            h3 {
                 font-size: 36px;
                 color: #FBFBFF;
             }
-            p{
+
+            p {
                 padding: 5vh 0;
                 padding-right: 3vw;
             }
-            .shoes{
+
+            .shoes {
                 height: 30vh;
             }
-            .clothes{
+
+            .clothes {
                 height: 30vh;
             }
-            .accessories{
+
+            .accessories {
                 height: 30vh;
             }
         }
-        .collage{
+
+        .collage {
             width: 50vw;
-            img{
+
+            img {
                 width: 50vw;
                 height: 100vh;
                 object-fit: cover;
@@ -180,11 +195,13 @@
         }
     }
 }
+
 /*--------------------------------------SEGMENT__3----------------------------------*/
-.segment-3{
+.segment-3 {
     padding-left: 15vw;
     padding-right: 15vw;
-    h2{
+
+    h2 {
         padding-top: 50px;
         padding-bottom: 50px;
         height: 100px;
@@ -192,13 +209,15 @@
         text-align: center;
 
     }
-    .container{
+
+    .container {
         width: 70vw;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
-        .card{
+
+        .card {
             margin: 25px;
             background-color: #252D35;
             width: 300px;
@@ -206,16 +225,19 @@
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
-            img{
+
+            img {
                 width: 300px;
                 height: 350px;
                 object-fit: cover;
             }
-            h3{
+
+            h3 {
                 text-align: center;
                 width: 300px;
             }
-            button{
+
+            button {
                 text-align: center;
                 font-size: 18px;
                 height: 7%;
@@ -227,7 +249,8 @@
                 color: #191E22;
                 transition: all .5s ease-out;
             }
-            button:hover{
+
+            button:hover {
                 background-color: #252D35;
                 color: #EAE0D5;
                 transition: all .5s ease-out;
@@ -237,8 +260,9 @@
         }
     }
 }
+
 /*--------------------------------------SEGMENT__4----------------------------------*/
-.segment-4{
+.segment-4 {
     width: 70vw;
     background-color: #252D35;
     height: 30vh;
@@ -246,7 +270,7 @@
     display: flex;
     flex-direction: row;
 
-    .form{
+    .form {
         height: 20vh;
         margin-top: 5vh;
         padding-left: 2.5vw;
@@ -255,63 +279,73 @@
         flex-wrap: wrap;
         justify-content: space-between;
         width: 32.5vw;
-        .name_int{
+
+        .name_int {
             width: 10vw;
         }
-        .email_int{
+
+        .email_int {
             width: 10vw;
         }
-        .message_int{
+
+        .message_int {
             width: 30vw;
         }
-        
-        
-        input{
+
+
+        input {
             color: #EAE0D5;
-            padding:5px 0;
+            padding: 5px 0;
             background-color: #171B1F;
             border: 1px solid #171B1F;
             height: 3vh;
         }
-        button{
+
+        button {
             color: #EAE0D5;
             background-color: #171B1F;
             border: 0;
-            padding:5px 10px;
+            padding: 5px 10px;
             height: 5vh;
         }
-        button:hover{
+
+        button:hover {
             color: #171B1F;
             background-color: #EAE0D5;
             transition: all .5s ease-out;
         }
     }
-    .links{
+
+    .links {
         height: 30vh;
         width: 30vw;
         padding-left: 2.5vw;
         padding-right: 2.5vw;
         text-align: center;
-        .link_head{
-            padding-top:2.5vh ;
+
+        .link_head {
+            padding-top: 2.5vh;
             height: 2vh;
         }
-        ul{
+
+        ul {
             padding-top: 5vh;
             height: 20vh;
             list-style: none;
-        } 
-        li{
-            height: 5vh;
-        } 
+        }
 
-        a{
+        li {
+            height: 5vh;
+        }
+
+        a {
             text-decoration: none;
             height: 5vh;
             font-weight: 400;
         }
-        a:hover{
+
+        a:hover {
             text-decoration: underline;
         }
-    }   
+    }
 }

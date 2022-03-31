@@ -1,0 +1,154 @@
+@media only screen and (max-width: 1200px) {
+  .wrapper .menu {
+    width: 100vw;
+    margin-left: 0;
+    height: 10vh;
+  }
+  .wrapper .menu ul {
+    height: 10vh;
+    padding: 0;
+  }
+  .wrapper .menu li {
+    padding: 0;
+    height: 10vh;
+    line-height: 10vh;
+    font-size: 24px;
+  }
+  .wrapper .goods {
+    height: 450vh;
+  }
+  .wrapper .goods .clothing {
+    height: 120vh;
+  }
+  .wrapper .goods .shoes {
+    height: 120vh;
+  }
+  .wrapper .goods .assortment {
+    height: 120vh;
+  }
+  .wrapper .goods .detail_card {
+    margin: 1vh 2vw;
+    overflow: hidden;
+    background-color: #EAE0D5;
+    width: 15vw;
+    height: 50vh;
+    text-align: center;
+  }
+  .wrapper .goods .detail_card img {
+    width: 15vw;
+    height: 25vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+  }
+  .wrapper .goods .detail_card img:hover {
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    height: 40vh;
+  }
+  .wrapper .goods .detail_card h3 {
+    font-weight: 700;
+    color: #191E22;
+  }
+  .wrapper .goods .detail_card p {
+    padding: 1vh 0;
+    font-weight: 400;
+    color: #191E22;
+    font-size: 18px;
+  }
+  .wrapper .goods .detail_card button {
+    border: 3px solid #191E22;
+    color: #191E22;
+    border: 0;
+    background-color: #EAE0D5;
+  }
+  .wrapper .goods .detail_card button:hover {
+    cursor: pointer;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .wrapper {
+    overflow: hidden;
+  }
+  .wrapper .menu {
+    width: 100vw;
+    margin-left: 0;
+    height: 10vh;
+  }
+  .wrapper .menu ul {
+    height: 10vh;
+    padding: 0;
+  }
+  .wrapper .menu li {
+    padding: 0;
+    height: 10vh;
+    line-height: 10vh;
+    font-size: 24px;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    overflow: hidden;
+  }
+  .wrapper .menu {
+    width: 100vw;
+    margin-left: 0;
+    height: 10vh;
+  }
+  .wrapper .menu ul {
+    height: 10vh;
+    padding: 0;
+  }
+  .wrapper .menu li {
+    padding: 0;
+    height: 10vh;
+    line-height: 10vh;
+  }
+  .wrapper .menu li a {
+    font-size: 20px;
+  }
+  .wrapper .goods {
+    height: 510vh;
+  }
+  .wrapper .goods .clothing {
+    height: 150vh;
+  }
+  .wrapper .goods .shoes {
+    height: 150vh;
+  }
+  .wrapper .goods .assortment {
+    height: 150vh;
+  }
+  .wrapper .goods .detail_card {
+    width: 20vw;
+  }
+  .wrapper .goods .detail_card img {
+    width: 20vw;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .wrapper {
+    overflow: hidden;
+  }
+  .wrapper .menu {
+    width: 100vw;
+    margin-left: 0;
+    height: 10vh;
+  }
+  .wrapper .menu ul {
+    height: 10vh;
+    padding: 0;
+  }
+  .wrapper .menu li {
+    padding: 0;
+    height: 10vh;
+    line-height: 10vh;
+  }
+  .wrapper .menu li a {
+    font-size: 15px;
+  }
+}

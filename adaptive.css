@@ -1,0 +1,586 @@
+@media only screen and (max-width: 1200px) {
+  .wrapper {
+    /*---------------------------------SEGMENT-1-----------------------------------------------------------------------------------*/
+    /*---------------------------------SEGMENT-2-----------------------------------------------------------------------------------*/
+    /*---------------------------------SEGMENT-3-----------------------------------------------------------------------------------*/
+    /*---------------------------------SEGMENT-4-----------------------------------------------------------------------------------*/
+  }
+  .wrapper .menu {
+    width: 50vw;
+    margin-left: 50vw;
+    height: 10vh;
+  }
+  .wrapper .menu ul {
+    height: 10vh;
+    padding: 0;
+  }
+  .wrapper .menu li {
+    padding: 0;
+    height: 10vh;
+    line-height: 10vh;
+    font-size: 24px;
+  }
+  .wrapper .segment-1 {
+    height: 150vh;
+    padding-top: 15vh;
+  }
+  .wrapper .segment-1 h2 {
+    font-size: 48px;
+  }
+  .wrapper .segment-1 .box {
+    height: 120vh;
+  }
+  .wrapper .segment-1 .box .logo {
+    height: 10vh;
+  }
+  .wrapper .segment-1 .box .logo h3 {
+    font-size: 32px;
+    line-height: 64px;
+  }
+  .wrapper .segment-1 .box #inf1 {
+    font-size: 42px;
+  }
+  .wrapper .segment-1 .box #inf2 {
+    font-size: 18px;
+  }
+  .wrapper .segment-2 {
+    height: 150vh;
+  }
+  .wrapper .segment-2 h2 {
+    font-size: 48px;
+  }
+  .wrapper .segment-2 .box-2 {
+    height: 120vh;
+  }
+  .wrapper .segment-2 .box-2 .box_text h3 {
+    font-size: 24px;
+  }
+  .wrapper .segment-2 .box-2 .box_text p {
+    font-size: 18px;
+  }
+  .wrapper .segment-2 .box-2 .collage {
+    height: 120vh;
+  }
+  .wrapper .segment-2 .box-2 .collage img {
+    height: 120vh;
+  }
+  .wrapper .segment-2 h2 {
+    padding: 50px 0;
+  }
+  .wrapper .segment-3 {
+    margin-bottom: 10vh;
+    height: 200vh;
+  }
+  .wrapper .segment-3 h2 {
+    font-size: 48px;
+  }
+  .wrapper .segment-3 .container {
+    height: 170vh;
+  }
+  .wrapper .segment-3 .container .card {
+    margin: 10px 20px;
+    width: 175px;
+    height: 275px;
+  }
+  .wrapper .segment-3 .container .card img {
+    width: 175px;
+    height: 200px;
+  }
+  .wrapper .segment-3 .container .card h3 {
+    font-size: 24px;
+  }
+  .wrapper .segment-3 .container .card button {
+    font-size: 18px;
+    width: 50%;
+    margin-left: 25%;
+    height: 25px;
+    line-height: 25px;
+  }
+  .wrapper .segment-4 {
+    height: 50vh;
+  }
+  .wrapper .segment-4 .form {
+    height: 30vh;
+  }
+  .wrapper .segment-4 .form input {
+    padding: 3px 0;
+    font-size: 18px;
+    height: 5vh;
+    line-height: 5vh;
+  }
+  .wrapper .segment-4 .form button {
+    height: 35px;
+    line-height: normal;
+    font-size: 18px;
+  }
+  .wrapper .segment-4 .links ul li {
+    padding: 5px;
+  }
+  .wrapper .segment-4 .links ul li a {
+    font-size: 24px;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .wrapper {
+    overflow: hidden;
+    /*---------------------------------SEGMENT-1-----------------------------------------------------------------------------------*/
+    /*---------------------------------SEGMENT-2-----------------------------------------------------------------------------------*/
+    /*---------------------------------SEGMENT-3-----------------------------------------------------------------------------------*/
+    /*---------------------------------SEGMENT-4-----------------------------------------------------------------------------------*/
+  }
+  .wrapper .menu {
+    width: 100vw;
+    margin-left: 0;
+    height: 10vh;
+  }
+  .wrapper .menu ul {
+    height: 10vh;
+    padding: 0;
+  }
+  .wrapper .menu li {
+    padding: 0;
+    height: 10vh;
+    line-height: 10vh;
+    font-size: 24px;
+  }
+  .wrapper .segment-1 {
+    height: 150vh;
+    padding-top: 15vh;
+  }
+  .wrapper .segment-1 h2 {
+    font-size: 36px;
+    padding: 20px 0;
+  }
+  .wrapper .segment-1 .box {
+    height: 120vh;
+    width: 80vw;
+    margin-left: 15vw;
+  }
+  .wrapper .segment-1 .box .logo {
+    height: 10vh;
+  }
+  .wrapper .segment-1 .box .logo h3 {
+    font-size: 32px;
+    line-height: 64px;
+  }
+  .wrapper .segment-1 .box #inf1 {
+    font-size: 36px;
+  }
+  .wrapper .segment-1 .box #inf2 {
+    width: 40vw;
+    font-size: 15px;
+  }
+  .wrapper .segment-2 {
+    height: 180vh;
+  }
+  .wrapper .segment-2 h2 {
+    padding: 20px 0;
+    font-size: 36px;
+  }
+  .wrapper .segment-2 .box-2 {
+    height: 150vh;
+  }
+  .wrapper .segment-2 .box-2 .box_text {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .wrapper .segment-2 .box-2 .box_text h3 {
+    font-size: 18px;
+  }
+  .wrapper .segment-2 .box-2 .box_text p {
+    font-size: 15px;
+  }
+  .wrapper .segment-2 .box-2 .collage {
+    height: 150vh;
+  }
+  .wrapper .segment-2 .box-2 .collage img {
+    height: 150vh;
+  }
+  .wrapper .segment-2 h2 {
+    padding: 50px 0;
+  }
+  .wrapper .segment-3 {
+    margin-bottom: 10vh;
+    height: 300vh;
+  }
+  .wrapper .segment-3 h2 {
+    padding: 20px 0;
+    font-size: 36px;
+  }
+  .wrapper .segment-3 .container {
+    height: 170vh;
+  }
+  .wrapper .segment-3 .container .card {
+    margin: 10px 20px;
+    width: 175px;
+    height: 275px;
+  }
+  .wrapper .segment-3 .container .card img {
+    width: 175px;
+    height: 200px;
+  }
+  .wrapper .segment-3 .container .card h3 {
+    font-size: 24px;
+  }
+  .wrapper .segment-3 .container .card button {
+    font-size: 18px;
+    width: 50%;
+    margin-left: 25%;
+    height: 25px;
+    line-height: 25px;
+  }
+  .wrapper .segment-4 {
+    overflow: hidden;
+    margin-left: 10vw;
+    height: 50vh;
+    width: 80vw;
+  }
+  .wrapper .segment-4 .form {
+    margin-left: 0;
+    width: 60vw;
+    height: 40vh;
+  }
+  .wrapper .segment-4 .form input {
+    padding: 3px 0;
+    font-size: 18px;
+    height: 5vh;
+    line-height: 5vh;
+  }
+  .wrapper .segment-4 .form button {
+    height: 30px;
+    line-height: normal;
+    font-size: 18px;
+  }
+  .wrapper .segment-4 .links h3 {
+    font-size: 18px;
+  }
+  .wrapper .segment-4 .links ul li {
+    padding: 2px;
+  }
+  .wrapper .segment-4 .links ul li a {
+    font-size: 18px;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    overflow: hidden;
+    /*---------------------------------SEGMENT-1-----------------------------------------------------------------------------------*/
+    /*---------------------------------SEGMENT-2-----------------------------------------------------------------------------------*/
+    /*---------------------------------SEGMENT-3-----------------------------------------------------------------------------------*/
+    /*---------------------------------SEGMENT-4-----------------------------------------------------------------------------------*/
+  }
+  .wrapper .menu {
+    width: 100vw;
+    margin-left: 0;
+    height: 10vh;
+  }
+  .wrapper .menu ul {
+    height: 10vh;
+    padding: 0;
+  }
+  .wrapper .menu li {
+    padding: 0;
+    height: 10vh;
+    line-height: 10vh;
+  }
+  .wrapper .menu li a {
+    font-size: 20px;
+  }
+  .wrapper .segment-1 {
+    height: 150vh;
+    padding-top: 15vh;
+  }
+  .wrapper .segment-1 h2 {
+    font-size: 36px;
+    padding: 20px 0;
+  }
+  .wrapper .segment-1 .box {
+    height: 120vh;
+    width: 80vw;
+    margin-left: 15vw;
+  }
+  .wrapper .segment-1 .box .logo {
+    height: 10vh;
+  }
+  .wrapper .segment-1 .box .logo h3 {
+    font-size: 32px;
+    line-height: 64px;
+  }
+  .wrapper .segment-1 .box #inf1 {
+    width: 80vw;
+    font-size: 36px;
+  }
+  .wrapper .segment-1 .box #inf2 {
+    display: none;
+    font-size: 15px;
+  }
+  .wrapper .segment-2 {
+    height: 200vh;
+  }
+  .wrapper .segment-2 h2 {
+    padding: 20px 0;
+    font-size: 36px;
+  }
+  .wrapper .segment-2 .box-2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100vh;
+  }
+  .wrapper .segment-2 .box-2 .box_text {
+    width: 100vw;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 0;
+    margin-left: 10vw;
+    width: 80vw;
+  }
+  .wrapper .segment-2 .box-2 .box_text h3 {
+    font-size: 18px;
+  }
+  .wrapper .segment-2 .box-2 .box_text p {
+    font-size: 15px;
+  }
+  .wrapper .segment-2 .box-2 .collage {
+    height: 100vh;
+    width: 100vw;
+  }
+  .wrapper .segment-2 .box-2 .collage img {
+    width: 50vw;
+    padding-left: 25vw;
+    height: 100vh;
+  }
+  .wrapper .segment-2 h2 {
+    padding: 50px 0;
+  }
+  .wrapper .segment-3 {
+    margin-bottom: 10vh;
+    height: 300vh;
+  }
+  .wrapper .segment-3 h2 {
+    padding: 20px 0;
+    font-size: 36px;
+  }
+  .wrapper .segment-3 .container {
+    height: 170vh;
+  }
+  .wrapper .segment-3 .container .card {
+    margin: 10px 20px;
+    width: 125px;
+    height: 275px;
+  }
+  .wrapper .segment-3 .container .card img {
+    width: 125px;
+    height: 200px;
+  }
+  .wrapper .segment-3 .container .card h3 {
+    font-size: 24px;
+  }
+  .wrapper .segment-3 .container .card button {
+    font-size: 18px;
+    width: 50%;
+    margin-left: 25%;
+    height: 25px;
+    line-height: 25px;
+  }
+  .wrapper .segment-4 {
+    overflow: hidden;
+    margin-left: 0;
+    height: 50vh;
+    width: 100vw;
+  }
+  .wrapper .segment-4 .form {
+    margin-left: 0;
+    width: 50vw;
+    height: 40vh;
+  }
+  .wrapper .segment-4 .form input {
+    padding: 3px 0;
+    font-size: 18px;
+    height: 5vh;
+    line-height: 5vh;
+  }
+  .wrapper .segment-4 .form button {
+    height: 30px;
+    line-height: normal;
+    font-size: 18px;
+  }
+  .wrapper .segment-4 .links {
+    width: 50vw;
+  }
+  .wrapper .segment-4 .links h3 {
+    font-size: 18px;
+  }
+  .wrapper .segment-4 .links ul li {
+    padding: 2px;
+  }
+  .wrapper .segment-4 .links ul li a {
+    font-size: 18px;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .wrapper {
+    overflow: hidden;
+    /*---------------------------------SEGMENT-1-----------------------------------------------------------------------------------*/
+    /*---------------------------------SEGMENT-2-----------------------------------------------------------------------------------*/
+    /*---------------------------------SEGMENT-3-----------------------------------------------------------------------------------*/
+    /*---------------------------------SEGMENT-4-----------------------------------------------------------------------------------*/
+  }
+  .wrapper .menu {
+    width: 100vw;
+    margin-left: 0;
+    height: 10vh;
+  }
+  .wrapper .menu ul {
+    height: 10vh;
+    padding: 0;
+  }
+  .wrapper .menu li {
+    padding: 0;
+    height: 10vh;
+    line-height: 10vh;
+  }
+  .wrapper .menu li a {
+    font-size: 15px;
+  }
+  .wrapper .segment-1 {
+    height: 150vh;
+    padding-top: 15vh;
+  }
+  .wrapper .segment-1 h2 {
+    font-size: 36px;
+    padding: 20px 0;
+  }
+  .wrapper .segment-1 .box {
+    height: 120vh;
+    width: 80vw;
+    margin-left: 15vw;
+  }
+  .wrapper .segment-1 .box .logo {
+    height: 10vh;
+  }
+  .wrapper .segment-1 .box .logo h3 {
+    font-size: 32px;
+    line-height: 64px;
+  }
+  .wrapper .segment-1 .box #inf1 {
+    width: 80vw;
+    font-size: 36px;
+  }
+  .wrapper .segment-1 .box #inf2 {
+    display: none;
+    font-size: 15px;
+  }
+  .wrapper .segment-2 {
+    height: 400vh;
+  }
+  .wrapper .segment-2 h2 {
+    padding: 20px 0;
+    font-size: 36px;
+  }
+  .wrapper .segment-2 .box-2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 200vh;
+  }
+  .wrapper .segment-2 .box-2 .box_text {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 0;
+    margin-left: 10vw;
+    width: 80vw;
+  }
+  .wrapper .segment-2 .box-2 .box_text h3 {
+    font-size: 15px;
+  }
+  .wrapper .segment-2 .box-2 .box_text p {
+    font-size: 12px;
+  }
+  .wrapper .segment-2 .box-2 .box_text .clothes {
+    height: 60vh;
+  }
+  .wrapper .segment-2 .box-2 .box_text .shoes {
+    height: 60vh;
+  }
+  .wrapper .segment-2 .box-2 .box_text .accessories {
+    height: 60vh;
+  }
+  .wrapper .segment-2 .box-2 .collage {
+    height: 200vh;
+    width: 100vw;
+  }
+  .wrapper .segment-2 .box-2 .collage img {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 200vh;
+  }
+  .wrapper .segment-2 h2 {
+    padding: 25px 0;
+  }
+  .wrapper .segment-3 {
+    margin-bottom: 10vh;
+    height: 300vh;
+  }
+  .wrapper .segment-3 h2 {
+    padding: 20px 0;
+    font-size: 36px;
+  }
+  .wrapper .segment-3 .container {
+    width: 70vw;
+    height: 170vh;
+  }
+  .wrapper .segment-3 .container .card {
+    margin: 10px 0;
+    width: 25vw;
+    height: 175px;
+  }
+  .wrapper .segment-3 .container .card img {
+    width: 25vw;
+    height: 125px;
+  }
+  .wrapper .segment-3 .container .card h3 {
+    font-size: 15px;
+  }
+  .wrapper .segment-3 .container .card button {
+    border: 0;
+    font-size: 15px;
+    width: 100%;
+    margin-left: 0;
+    height: 25px;
+    line-height: 25px;
+  }
+  .wrapper .segment-4 {
+    overflow: hidden;
+    margin-left: 0;
+    height: 70vh;
+    width: 100vw;
+  }
+  .wrapper .segment-4 .form {
+    display: none;
+  }
+  .wrapper .segment-4 .links {
+    text-align: center;
+    width: 100vw;
+    height: 70vh;
+  }
+  .wrapper .segment-4 .links h3 {
+    width: 100vw;
+    font-size: 18px;
+  }
+  .wrapper .segment-4 .links ul {
+    width: 100vw;
+  }
+  .wrapper .segment-4 .links ul li {
+    padding: 5px 0;
+  }
+  .wrapper .segment-4 .links ul li a {
+    font-size: 18px;
+  }
+}
