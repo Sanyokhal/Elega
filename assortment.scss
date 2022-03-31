@@ -1,4 +1,5 @@
 @import 'adaptive_assort.css';
+
 * {
     font-family: 'Libre Baskerville', serif;
     margin: 0;
@@ -11,20 +12,23 @@
     width: 100vw;
     background-color: #191E22;
 }
+
 .menu {
-     width: 50vw;
-     margin-left: 50vw;
+    width: 50vw;
+    margin-left: 50vw;
 }
-.choose{
+
+.choose {
     width: 60vw;
     margin-left: 20vw;
     margin-bottom: 5vh;
     padding-top: 10vh;
     text-align: center;
     height: 5vh;
-    ul{
+
+    ul {
         background-color: #252D35;
-        border:2px solid #EAE0D5;
+        border: 2px solid #EAE0D5;
         height: 5vh;
         padding: 1vh 0;
         display: flex;
@@ -33,76 +37,90 @@
         width: 60vw;
         list-style-type: none
     }
-    li{
+
+    li {
         font-weight: 700;
         height: 5vh;
         line-height: 5vh;
     }
-    li:hover{
+
+    li:hover {
         cursor: pointer;
     }
 }
-.goods{
+
+.goods {
     width: 80vw;
     margin-left: 10vw;
-    height:350vh;
-    h2{
+    height: 350vh;
+
+    h2 {
         text-align: center;
         padding: 5vh 0;
-       font-size: 40px;
+        font-size: 40px;
     }
-    .detail_card{
+
+    .detail_card {
         margin: 0 2vw;
         overflow: hidden;
         background-color: #EAE0D5;
-        width: 15vw ;
+        width: 15vw;
         height: 40vh;
         text-align: center;
-        img{
+
+        img {
             width: 15vw;
             height: 25vh;
             object-fit: cover;
             transition: all .5s ease-out;
         }
-        img:hover{
+
+        img:hover {
             transition: all .5s ease-out;
             height: 40vh;
-        } 
-        h3{
+        }
+
+        h3 {
             font-weight: 700;
             color: #191E22;
         }
-        p{
+
+        p {
             padding: 1vh 0;
             font-weight: 400;
             color: #191E22;
             font-size: 18px;
         }
-        button{
+
+        button {
             border: 3px solid #191E22;
             color: #191E22;
             border: 0;
             background-color: #EAE0D5;
         }
-        button:hover{
+
+        button:hover {
             cursor: pointer;
         }
     }
-    .clothing{
+
+    .clothing {
         height: 100vh;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    .shoes{
+
+    .shoes {
         height: 100vh;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    .assortment{
+
+    .assortment {
         height: 100vh;
         display: flex;
         flex-direction: row;
@@ -110,8 +128,9 @@
         justify-content: space-between;
     }
 }
+
 /*-------------------------------------POP-UP-------------------------------------------------------*/
-.pop-up{
+.pop-up {
     width: 100vw;
     height: 100vh;
     position: fixed;
@@ -120,7 +139,8 @@
     margin: 0;
     padding: 0;
     background-color: rgba(25, 30, 34, .7);
-    .box{
+
+    .box {
         display: flex;
         flex-direction: row;
         width: 80vw;
@@ -128,7 +148,8 @@
         margin-top: 10vh;
         margin-left: 10vw;
         background-color: #252D35;
-        form{
+
+        form {
             margin-top: 5vh;
             height: 30vh;
             display: flex;
@@ -136,14 +157,16 @@
             justify-content: space-around;
             padding-left: 5vw;
             width: 50vw;
-            input{
+
+            input {
                 width: 40vw;
                 height: 5vh;
                 background-color: #191E22;
                 border: none;
                 color: #EAE0D5;
             }
-            button{
+
+            button {
                 margin-left: 15vw;
                 width: 10vw;
                 color: #191E22;
@@ -151,36 +174,44 @@
                 border: none;
                 transition: all .5s ease-out;
             }
-            button:hover{
+
+            button:hover {
                 color: #EAE0D5;
                 background-color: #191E22;
                 transition: all .5s ease-out;
             }
         }
-        .media{
+
+        .media {
             text-align: center;
             margin-top: 5vh;
-            .soc_med_txt{
+
+            .soc_med_txt {
                 font-size: 32px;
             }
-            ul{
+
+            ul {
                 list-style: none;
             }
-            a{
+
+            a {
                 text-decoration: none;
             }
-            li{
+
+            li {
                 padding: 10px 0;
             }
         }
-        #cancel_button{
+
+        #cancel_button {
             margin-top: 5vh;
             width: 3vw;
             height: 3vw;
             margin-left: 2vw;
         }
-        #cancel_button:hover{
-            cursor:pointer ;
+
+        #cancel_button:hover {
+            cursor: pointer;
         }
     }
 }

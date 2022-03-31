@@ -15,82 +15,83 @@ var pop_op = false;
 pop_up_window.style.display = 'none';
 
 
-cloth_button.onclick = function(){
-    if(cb == 0){
+cloth_button.onclick = function () {
+    if (cb == 0) {
         cloth_elem.style.display = 'none';
         cb++;
-    }else{
+    } else {
         cloth_elem.style.display = 'flex';
         cb--;
     }
-    if(cb+ab+sb == 3){
+    if (cb + ab + sb == 3) {
         good.style.height = '100vh';
-    }else if(cb+ab+sb == 2){
+    } else if (cb + ab + sb == 2) {
         good.style.height = '150vh';
-    }else if(cb+ab+sb == 1){
+    } else if (cb + ab + sb == 1) {
         good.style.height = '250vh';
-    }else if(cb+ab+sb == 0){
+    } else if (cb + ab + sb == 0) {
         good.style.height = '350vh';
-    }else{}
+    } else {}
 }
-shoes_button.onclick = function(){
-    if(sb == 0){
+shoes_button.onclick = function () {
+    if (sb == 0) {
         shoes_elem.style.display = 'none';
         sb++;
-    }else{
+    } else {
         shoes_elem.style.display = 'flex';
         sb--;
     }
-    if(cb+ab+sb == 3){
+    if (cb + ab + sb == 3) {
         good.style.height = '100vh';
-    }else if(cb+ab+sb == 2){
+    } else if (cb + ab + sb == 2) {
         good.style.height = '150vh';
-    }else if(cb+ab+sb == 1){
+    } else if (cb + ab + sb == 1) {
         good.style.height = '250vh';
-    }else if(cb+ab+sb == 0){
+    } else if (cb + ab + sb == 0) {
         good.style.height = '350vh';
-    }else{}
+    } else {}
 }
-access_button.onclick = function(){
-    if(ab == 0){
+access_button.onclick = function () {
+    if (ab == 0) {
         access_elem.style.display = 'none';
         ab++;
-    }else{
+    } else {
         access_elem.style.display = 'flex';
         ab--;
     }
-    if(cb+ab+sb == 3){
+    if (cb + ab + sb == 3) {
         good.style.height = '100vh';
-    }else if(cb+ab+sb == 2){
+    } else if (cb + ab + sb == 2) {
         good.style.height = '150vh';
-    }else if(cb+ab+sb == 1){
+    } else if (cb + ab + sb == 1) {
         good.style.height = '250vh';
-    }else if(cb+ab+sb == 0){
+    } else if (cb + ab + sb == 0) {
         good.style.height = '350vh';
-    }else{}
+    } else {}
 }
 
-function open_popUp(){
+function open_popUp() {
     pop_up_window.style.display = 'block';
     menu.style.display = 'none';
 }
-function close_popUp(){
+
+function close_popUp() {
     pop_up_window.style.display = 'none';
     menu.style.display = 'block';
 }
 
-function order_consult(){
+function order_consult() {
     alert("Order confirmed. Await for call")
 }
 const anchors = document.querySelectorAll('a[href*="#"]');
 
 for (let anchor of anchors) {
-    anchor.addEventListener('click', function(e){
+    anchor.addEventListener('click', function (e) {
         e.preventDefault();
         const blockId = anchor.getAttribute('href').substr(1);
         document.getElementById(blockId).scrollIntoView({
-            behavior:'smooth',
-            block:'start',
+            behavior: 'smooth',
+            block: 'start',
         })
     })
 }

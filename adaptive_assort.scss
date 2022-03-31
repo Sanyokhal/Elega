@@ -1,85 +1,102 @@
-@media  only screen and (max-width:1200px){
-    .wrapper{
-        .menu{
+@media only screen and (max-width:1200px) {
+    .wrapper {
+        .menu {
             width: 100vw;
             margin-left: 0;
             height: 10vh;
-            ul{
+
+            ul {
                 height: 10vh;
                 padding: 0;
             }
-            li{
+
+            li {
                 padding: 0;
                 height: 10vh;
                 line-height: 10vh;
                 font-size: 24px;
             }
         }
-        .goods{
+
+        .goods {
             height: 450vh;
-            .clothing{
+
+            .clothing {
                 height: 120vh;
             }
-            .shoes{
+
+            .shoes {
                 height: 120vh;
             }
-            .assortment{
+
+            .assortment {
                 height: 120vh;
             }
-            .detail_card{
+
+            .detail_card {
                 margin: 1vh 2vw;
                 overflow: hidden;
                 background-color: #EAE0D5;
-                width: 15vw ;
+                width: 15vw;
                 height: 50vh;
                 text-align: center;
-                img{
+
+                img {
                     width: 15vw;
                     height: 25vh;
                     object-fit: cover;
                     transition: all .5s ease-out;
                 }
-                img:hover{
+
+                img:hover {
                     transition: all .5s ease-out;
                     height: 40vh;
-                } 
-                h3{
+                }
+
+                h3 {
                     font-weight: 700;
                     color: #191E22;
                 }
-                p{
+
+                p {
                     padding: 1vh 0;
                     font-weight: 400;
                     color: #191E22;
                     font-size: 18px;
                 }
-                button{
+
+                button {
                     border: 3px solid #191E22;
                     color: #191E22;
                     border: 0;
                     background-color: #EAE0D5;
                 }
-                button:hover{
+
+                button:hover {
                     cursor: pointer;
                 }
             }
         }
-       
+
     }
 }
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
-    .wrapper{
+    .wrapper {
         overflow: hidden;
-        .menu{
+
+        .menu {
             width: 100vw;
             margin-left: 0;
             height: 10vh;
-            ul{
+
+            ul {
                 height: 10vh;
                 padding: 0;
             }
-            li{
+
+            li {
                 padding: 0;
                 height: 10vh;
                 line-height: 10vh;
@@ -87,73 +104,86 @@
             }
         }
     }
-  }
-  
-  /* Small Devices, Tablets */
-  @media only screen and (max-width: 768px) {
-    .wrapper{
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+    .wrapper {
         overflow: hidden;
-        .menu{
+
+        .menu {
             width: 100vw;
             margin-left: 0;
             height: 10vh;
-            ul{
+
+            ul {
                 height: 10vh;
                 padding: 0;
             }
-            li{
+
+            li {
                 padding: 0;
                 height: 10vh;
                 line-height: 10vh;
-                a{
+
+                a {
                     font-size: 20px;
                 }
             }
         }
-        .goods{
+
+        .goods {
             height: 510vh;
-            .clothing{
-                height:150vh;
+
+            .clothing {
+                height: 150vh;
             }
-            .shoes{
-                height:150vh;
+
+            .shoes {
+                height: 150vh;
             }
-            .assortment{
-                height:150vh;
+
+            .assortment {
+                height: 150vh;
             }
-            .detail_card{
+
+            .detail_card {
                 width: 20vw;
-                img{
+
+                img {
                     width: 20vw;
                 }
             }
         }
-        
+
     }
-  }
-  
-  /* Extra Small Devices, Phones */
-  @media only screen and (max-width: 480px) {
-    .wrapper{
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+    .wrapper {
         overflow: hidden;
-        .menu{
+
+        .menu {
             width: 100vw;
             margin-left: 0;
             height: 10vh;
-            ul{
+
+            ul {
                 height: 10vh;
                 padding: 0;
             }
-            li{
+
+            li {
                 padding: 0;
                 height: 10vh;
                 line-height: 10vh;
-                a{
+
+                a {
                     font-size: 15px;
                 }
             }
         }
-       
+
     }
-  }
-  
+}

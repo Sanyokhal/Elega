@@ -1,92 +1,116 @@
-@media  only screen and (max-width:1200px){
-    .wrapper{
-        .menu{
+@media only screen and (max-width:1200px) {
+    .wrapper {
+        .menu {
             width: 50vw;
             margin-left: 50vw;
             height: 10vh;
-            ul{
+
+            ul {
                 height: 10vh;
                 padding: 0;
             }
-            li{
+
+            li {
                 padding: 0;
                 height: 10vh;
                 line-height: 10vh;
                 font-size: 24px;
             }
         }
+
         /*---------------------------------SEGMENT-1-----------------------------------------------------------------------------------*/
-        .segment-1{
-            h2{
-                font-size:48px;
+        .segment-1 {
+            h2 {
+                font-size: 48px;
             }
+
             height: 150vh;
             padding-top: 15vh;
-            .box{
+
+            .box {
                 height: 120vh;
-                .logo{
+
+                .logo {
                     height: 10vh;
-                    h3{
+
+                    h3 {
                         font-size: 32px;
                         line-height: 64px;
                     }
                 }
-                #inf1{
+
+                #inf1 {
                     font-size: 42px;
                 }
-                #inf2{
+
+                #inf2 {
                     font-size: 18px;
                 }
             }
         }
+
         /*---------------------------------SEGMENT-2-----------------------------------------------------------------------------------*/
-        .segment-2{
-            h2{
-                font-size:48px;
+        .segment-2 {
+            h2 {
+                font-size: 48px;
             }
+
             height: 150vh;
-            .box-2{
+
+            .box-2 {
                 height: 120vh;
-                .box_text{
-                    h3{
-                        font-size:24px;
+
+                .box_text {
+                    h3 {
+                        font-size: 24px;
                     }
-                    p{
+
+                    p {
                         font-size: 18px;
                     }
                 }
-                .collage{
+
+                .collage {
                     height: 120vh;
-                    img{
+
+                    img {
                         height: 120vh;
                     }
                 }
             }
-            h2{
+
+            h2 {
                 padding: 50px 0;
             }
         }
+
         /*---------------------------------SEGMENT-3-----------------------------------------------------------------------------------*/
-        .segment-3{
+        .segment-3 {
             margin-bottom: 10vh;
             height: 200vh;
-            h2{
-                font-size:48px;
+
+            h2 {
+                font-size: 48px;
             }
-            .container{
+
+            .container {
                 height: 170vh;
-                .card{
+
+                .card {
                     margin: 10px 20px;
                     width: 175px;
                     height: 275px;
-                    img{
+
+                    img {
                         width: 175px;
                         height: 200px;
                     }
-                    h3{
+
+                    h3 {
                         font-size: 24px;
                     }
-                    button{
+
+                    button {
                         font-size: 18px;
                         width: 50%;
                         margin-left: 25%;
@@ -96,28 +120,34 @@
                 }
             }
         }
-         /*---------------------------------SEGMENT-4-----------------------------------------------------------------------------------*/
-        .segment-4{
+
+        /*---------------------------------SEGMENT-4-----------------------------------------------------------------------------------*/
+        .segment-4 {
             height: 50vh;
-            .form{
+
+            .form {
                 height: 30vh;
-                input{
+
+                input {
                     padding: 3px 0;
                     font-size: 18px;
                     height: 5vh;
                     line-height: 5vh;
                 }
-                button{
+
+                button {
                     height: 35px;
                     line-height: normal;
                     font-size: 18px;
                 }
             }
-            .links{
-                ul{
-                    li{
+
+            .links {
+                ul {
+                    li {
                         padding: 5px;
-                        a{
+
+                        a {
                             font-size: 24px;
                         }
                     }
@@ -126,104 +156,131 @@
         }
     }
 }
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
-    .wrapper{
+    .wrapper {
         overflow: hidden;
-        .menu{
+
+        .menu {
             width: 100vw;
             margin-left: 0;
             height: 10vh;
-            ul{
+
+            ul {
                 height: 10vh;
                 padding: 0;
             }
-            li{
+
+            li {
                 padding: 0;
                 height: 10vh;
                 line-height: 10vh;
                 font-size: 24px;
             }
         }
+
         /*---------------------------------SEGMENT-1-----------------------------------------------------------------------------------*/
-        .segment-1{
+        .segment-1 {
             height: 150vh;
             padding-top: 15vh;
-            h2{
-                font-size:36px;
+
+            h2 {
+                font-size: 36px;
                 padding: 20px 0;
             }
-            .box{
+
+            .box {
                 height: 120vh;
                 width: 80vw;
                 margin-left: 15vw;
-                .logo{
+
+                .logo {
                     height: 10vh;
-                    h3{
+
+                    h3 {
                         font-size: 32px;
                         line-height: 64px;
                     }
                 }
-                #inf1{
+
+                #inf1 {
                     font-size: 36px;
                 }
-                #inf2{
+
+                #inf2 {
                     width: 40vw;
                     font-size: 15px;
                 }
             }
         }
+
         /*---------------------------------SEGMENT-2-----------------------------------------------------------------------------------*/
-        .segment-2{
-            h2{
+        .segment-2 {
+            h2 {
                 padding: 20px 0;
-                font-size:36px;
+                font-size: 36px;
             }
+
             height: 180vh;
-            .box-2{
+
+            .box-2 {
                 height: 150vh;
-                .box_text{
+
+                .box_text {
                     justify-content: space-around;
-                    h3{
-                        font-size:18px;
+
+                    h3 {
+                        font-size: 18px;
                     }
-                    p{
+
+                    p {
                         font-size: 15px;
                     }
                 }
-                .collage{
+
+                .collage {
                     height: 150vh;
-                    img{
+
+                    img {
                         height: 150vh;
                     }
                 }
             }
-            h2{
+
+            h2 {
                 padding: 50px 0;
             }
         }
+
         /*---------------------------------SEGMENT-3-----------------------------------------------------------------------------------*/
-        .segment-3{
+        .segment-3 {
             margin-bottom: 10vh;
             height: 300vh;
-            h2{
+
+            h2 {
                 padding: 20px 0;
-                font-size:36px;
+                font-size: 36px;
             }
-            .container{
+
+            .container {
                 height: 170vh;
-                .card{
+
+                .card {
                     margin: 10px 20px;
                     width: 175px;
                     height: 275px;
-                    img{
+
+                    img {
                         width: 175px;
                         height: 200px;
                     }
-                    h3{
+
+                    h3 {
                         font-size: 24px;
                     }
-                    button{
+
+                    button {
                         font-size: 18px;
                         width: 50%;
                         margin-left: 25%;
@@ -233,36 +290,43 @@
                 }
             }
         }
-         /*---------------------------------SEGMENT-4-----------------------------------------------------------------------------------*/
-        .segment-4{
+
+        /*---------------------------------SEGMENT-4-----------------------------------------------------------------------------------*/
+        .segment-4 {
             overflow: hidden;
             margin-left: 10vw;
             height: 50vh;
             width: 80vw;
-            .form{
+
+            .form {
                 margin-left: 0;
-                width:60vw;
+                width: 60vw;
                 height: 40vh;
-                input{
+
+                input {
                     padding: 3px 0;
                     font-size: 18px;
                     height: 5vh;
                     line-height: 5vh;
                 }
-                button{
+
+                button {
                     height: 30px;
                     line-height: normal;
                     font-size: 18px;
                 }
             }
-            .links{
-                h3{
-                    font-size:18px;
+
+            .links {
+                h3 {
+                    font-size: 18px;
                 }
-                ul{
-                    li{
+
+                ul {
+                    li {
                         padding: 2px;
-                        a{
+
+                        a {
                             font-size: 18px;
                         }
                     }
@@ -270,117 +334,144 @@
             }
         }
     }
-  }
-  
-  /* Small Devices, Tablets */
-  @media only screen and (max-width: 768px) {
-    .wrapper{
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+    .wrapper {
         overflow: hidden;
-        .menu{
+
+        .menu {
             width: 100vw;
             margin-left: 0;
             height: 10vh;
-            ul{
+
+            ul {
                 height: 10vh;
                 padding: 0;
             }
-            li{
+
+            li {
                 padding: 0;
                 height: 10vh;
                 line-height: 10vh;
-                a{
+
+                a {
                     font-size: 20px;
                 }
             }
         }
+
         /*---------------------------------SEGMENT-1-----------------------------------------------------------------------------------*/
-        .segment-1{
+        .segment-1 {
             height: 150vh;
             padding-top: 15vh;
-            h2{
-                font-size:36px;
+
+            h2 {
+                font-size: 36px;
                 padding: 20px 0;
             }
-            .box{
+
+            .box {
                 height: 120vh;
                 width: 80vw;
                 margin-left: 15vw;
-                .logo{
+
+                .logo {
                     height: 10vh;
-                    h3{
+
+                    h3 {
                         font-size: 32px;
                         line-height: 64px;
                     }
                 }
-                #inf1{
+
+                #inf1 {
                     width: 80vw;
                     font-size: 36px;
                 }
-                #inf2{
+
+                #inf2 {
                     display: none;
                     font-size: 15px;
                 }
             }
         }
+
         /*---------------------------------SEGMENT-2-----------------------------------------------------------------------------------*/
-        .segment-2{
-            h2{
+        .segment-2 {
+            h2 {
                 padding: 20px 0;
-                font-size:36px;
+                font-size: 36px;
             }
+
             height: 200vh;
-            .box-2{
+
+            .box-2 {
                 flex-direction: column;
                 height: 100vh;
-                .box_text{
+
+                .box_text {
                     width: 100vw;
                     justify-content: space-around;
                     padding: 0;
                     margin-left: 10vw;
                     width: 80vw;
-                    h3{
-                        font-size:18px;
+
+                    h3 {
+                        font-size: 18px;
                     }
-                    p{
+
+                    p {
                         font-size: 15px;
                     }
                 }
-                .collage{
+
+                .collage {
                     height: 100vh;
                     width: 100vw;
-                    img{
+
+                    img {
                         width: 50vw;
                         padding-left: 25vw;
                         height: 100vh;
                     }
                 }
             }
-            h2{
+
+            h2 {
                 padding: 50px 0;
             }
         }
+
         /*---------------------------------SEGMENT-3-----------------------------------------------------------------------------------*/
-        .segment-3{
+        .segment-3 {
             margin-bottom: 10vh;
             height: 300vh;
-            h2{
+
+            h2 {
                 padding: 20px 0;
-                font-size:36px;
+                font-size: 36px;
             }
-            .container{
+
+            .container {
                 height: 170vh;
-                .card{
+
+                .card {
                     margin: 10px 20px;
                     width: 125px;
                     height: 275px;
-                    img{
+
+                    img {
                         width: 125px;
                         height: 200px;
                     }
-                    h3{
+
+                    h3 {
                         font-size: 24px;
                     }
-                    button{
+
+                    button {
                         font-size: 18px;
                         width: 50%;
                         margin-left: 25%;
@@ -390,37 +481,45 @@
                 }
             }
         }
-         /*---------------------------------SEGMENT-4-----------------------------------------------------------------------------------*/
-        .segment-4{
+
+        /*---------------------------------SEGMENT-4-----------------------------------------------------------------------------------*/
+        .segment-4 {
             overflow: hidden;
             margin-left: 0;
             height: 50vh;
             width: 100vw;
-            .form{
+
+            .form {
                 margin-left: 0;
-                width:50vw;
+                width: 50vw;
                 height: 40vh;
-                input{
+
+                input {
                     padding: 3px 0;
                     font-size: 18px;
                     height: 5vh;
                     line-height: 5vh;
                 }
-                button{
+
+                button {
                     height: 30px;
                     line-height: normal;
                     font-size: 18px;
                 }
             }
-            .links{
+
+            .links {
                 width: 50vw;
-                h3{
-                    font-size:18px;
+
+                h3 {
+                    font-size: 18px;
                 }
-                ul{
-                    li{
+
+                ul {
+                    li {
                         padding: 2px;
-                        a{
+
+                        a {
                             font-size: 18px;
                         }
                     }
@@ -428,93 +527,115 @@
             }
         }
     }
-  }
-  
-  /* Extra Small Devices, Phones */
-  @media only screen and (max-width: 480px) {
-    .wrapper{
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+    .wrapper {
         overflow: hidden;
-        .menu{
+
+        .menu {
             width: 100vw;
             margin-left: 0;
             height: 10vh;
-            ul{
+
+            ul {
                 height: 10vh;
                 padding: 0;
             }
-            li{
+
+            li {
                 padding: 0;
                 height: 10vh;
                 line-height: 10vh;
-                a{
+
+                a {
                     font-size: 15px;
                 }
             }
         }
+
         /*---------------------------------SEGMENT-1-----------------------------------------------------------------------------------*/
-        .segment-1{
+        .segment-1 {
             height: 150vh;
             padding-top: 15vh;
-            h2{
-                font-size:36px;
+
+            h2 {
+                font-size: 36px;
                 padding: 20px 0;
             }
-            .box{
+
+            .box {
                 height: 120vh;
                 width: 80vw;
                 margin-left: 15vw;
-                .logo{
+
+                .logo {
                     height: 10vh;
-                    h3{
+
+                    h3 {
                         font-size: 32px;
                         line-height: 64px;
                     }
                 }
-                #inf1{
+
+                #inf1 {
                     width: 80vw;
                     font-size: 36px;
                 }
-                #inf2{
+
+                #inf2 {
                     display: none;
                     font-size: 15px;
                 }
             }
         }
+
         /*---------------------------------SEGMENT-2-----------------------------------------------------------------------------------*/
-        .segment-2{
-            h2{
+        .segment-2 {
+            h2 {
                 padding: 20px 0;
-                font-size:36px;
+                font-size: 36px;
             }
+
             height: 400vh;
-            .box-2{
+
+            .box-2 {
                 flex-direction: column;
                 height: 200vh;
-                .box_text{
+
+                .box_text {
                     justify-content: space-around;
                     padding: 0;
                     margin-left: 10vw;
                     width: 80vw;
-                    h3{
-                        font-size:15px;
+
+                    h3 {
+                        font-size: 15px;
                     }
-                    p{
+
+                    p {
                         font-size: 12px;
                     }
-                    .clothes{
+
+                    .clothes {
                         height: 60vh;
                     }
-                    .shoes{
+
+                    .shoes {
                         height: 60vh;
                     }
-                    .accessories{
+
+                    .accessories {
                         height: 60vh;
                     }
                 }
-                .collage{
+
+                .collage {
                     height: 200vh;
                     width: 100vw;
-                    img{
+
+                    img {
                         padding: 0;
                         margin: 0;
                         width: 100vw;
@@ -522,33 +643,41 @@
                     }
                 }
             }
-            h2{
+
+            h2 {
                 padding: 25px 0;
             }
         }
+
         /*---------------------------------SEGMENT-3-----------------------------------------------------------------------------------*/
-        .segment-3{
+        .segment-3 {
             margin-bottom: 10vh;
             height: 300vh;
-            h2{
+
+            h2 {
                 padding: 20px 0;
-                font-size:36px;
+                font-size: 36px;
             }
-            .container{
+
+            .container {
                 width: 70vw;
                 height: 170vh;
-                .card{
+
+                .card {
                     margin: 10px 0;
                     width: 25vw;
                     height: 175px;
-                    img{
+
+                    img {
                         width: 25vw;
                         height: 125px;
                     }
-                    h3{
+
+                    h3 {
                         font-size: 15px;
                     }
-                    button{
+
+                    button {
                         border: 0;
                         font-size: 15px;
                         width: 100%;
@@ -559,28 +688,35 @@
                 }
             }
         }
-         /*---------------------------------SEGMENT-4-----------------------------------------------------------------------------------*/
-        .segment-4{
+
+        /*---------------------------------SEGMENT-4-----------------------------------------------------------------------------------*/
+        .segment-4 {
             overflow: hidden;
             margin-left: 0;
             height: 70vh;
             width: 100vw;
-            .form{
+
+            .form {
                 display: none;
             }
-            .links{
+
+            .links {
                 text-align: center;
                 width: 100vw;
                 height: 70vh;
-                h3{
+
+                h3 {
                     width: 100vw;
-                    font-size:18px;
+                    font-size: 18px;
                 }
-                ul{
+
+                ul {
                     width: 100vw;
-                    li{
+
+                    li {
                         padding: 5px 0;
-                        a{
+
+                        a {
                             font-size: 18px;
                         }
                     }
@@ -588,5 +724,4 @@
             }
         }
     }
-  }
-  
+}
